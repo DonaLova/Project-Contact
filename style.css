@@ -8,3 +8,37 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+h1 {
+	text-align: center;
+}
+
+.tym {
+	display: flex;
+	flex-direction: column;
+}
+
+.osoba {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid blue;
+	margin: 10pt;
+	padding: 10pt;
+	width: 100%;
+}
+
+.osoba img {
+	border-radius: 50% ;
+	display: block;
+	margin: auto;
+}
+
+
+.popis {
+	text-align: center;
+
+}
+
+img {
+	align-items: center;
+}
