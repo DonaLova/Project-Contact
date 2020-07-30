@@ -24,7 +24,7 @@ h1 {
 	border: 1px solid blue;
 	margin: 10pt;
 	padding: 10pt;
-	width: 100%;
+	width: 95%;
 }
 
 .osoba img {
@@ -36,9 +36,15 @@ h1 {
 
 .popis {
 	text-align: center;
-
 }
 
 img {
 	align-items: center;
 }
+
+  
+@media (mim-width: 400px) {
+	.tym {
+		background-color: lightblue;
+	}
+  }
